@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Figma Design Project</title>
+   
+    <style>
+      .header{
+        display:grid;
+        grid-template-columns:1fr 300px;
+        height:40px;
+        top:0;
+        right:0;
+        left:0;
+        border-bottom-color:rgb(222, 222, 222);
+        border-bottom-width:1px;
+        background-color:white;
+        border-bottom-style:solid; 
+        padding-bottom:2px;       
+      }
+      .headerStart{
+        display:grid;
+        margin-left: 5px;
+         }
+      .sms{
+        font-size:14px;
+        border:none;
+        color:black;
+        background-color:white;
+        text-align:start
+         }
+      .headerEnd-Container{
+        display:grid;
+        grid-template-columns:115px 50px 50px 50px;
+        align-items:center;
+               }
+        .save,.notification,.profile{
+          height:20 px;
+          background-color:white;
+          border:none;
+        }
+        .saveImg{
+          height:20px;
+         }
+         .notificationImg{
+          height:25px;
+                   }
+         .profileImg{
+          height:35px;
+         }
+
+         .newEnquiry{
+          font-size:12px;
+          padding:5px 10px;
+          background-color:rgb(38, 147, 237);
+          color:white;
+          border:none;
+          font-weight:bold;
+          border-radius:2px;
+         white-space:nowrap;
+          }
+          .sidebar{
+            width:200px;
+            position:fixed;
+            left:0;
+            bottom:0;
+            top:50px;
+            padding-top:5px;
+            background-color:rgb(38, 147, 237);
+              }
+             .sidebarboxcontainer{
+             display:flex;
+              flex-direction:column;
+              }
+              .sidebarbox1{
+                display:flex;
+                justify-content:end;
+               margin-right:20px;
+               height:50px;
+                  }
+                .icon{
+                  display:flex;
+                    height:25px;
+                     }
+                  .sidebarbox{
+                    display:flex;
+                    flex-direction:row;
+                    justify-content:start;
+                    height:50px; 
+                  }            
+                                   
+                     
+                  .icons{
+                    display:flex;
+                    margin-left:10px;
+                    height:25px;
+                  
+                  }
+                  .name{
+                    
+                    display:flex;
+                    margin-left:10px;
+                  }
+                      
+                                                
+                          
+    </style>
+
+  </head>
+  <body>
+      <div class="header">
+        <div class="headerStart">
+            <button class="sms">SMS</button>
+          </div>
+        <div class="headerEnd-Container">
+          <div><button class="newEnquiry">New Enquiry</button></div>
+          <div><button class="save">
+          <img class="saveImg" src="images/save.png"></button>
+          </div> 
+          <div><button class="notification"> <img class="notificationImg" src="images/notifications.svg">
+          </button></div>
+          <div><button class="profile"><img class="profileImg" src="images/profile.jpg">
+          </button></div>
+          </div>
+      </div>
+        <div class="sidebar">
+          <div class="sidebarboxcontainer">
+          <div class="sidebarbox1"><img class="icon" src="images/hamburger-menu.svg"></div>
+              <div class="sidebarbox">
+                <div><img class="icons" src="images/upload.svg"> </div>
+                <div class="name">Dashboard</div></div>
+                <div class="sidebarbox">
+                  <div><img class="icons" src="images/upload.svg"> </div>
+                  <div class="name">Installation</div></div>
+                  <div class="sidebarbox">
+                    <div><img class="icons" src="images/upload.svg"> </div>
+                    <div class="name">Removal</div></div>  
+                    <div class="sidebarbox">
+                      <div><img class="icons" src="images/upload.svg"> </div>
+                      <div class="name">Staff</div></div>
+                      <div class="sidebarbox">
+                        <div><img class="icons" src="images/upload.svg"> </div>
+                        <div class="name">Vehicle</div></div>
+                        <div class="sidebarbox">
+                          <div><img class="icons" src="images/upload.svg"> </div>
+                          <div class="name">Third Party</div></div>
+                          <div class="sidebarbox">
+                            <div><img class="icons" src="images/upload.svg"> </div>
+                            <div class="name">Send Notification</div></div>
+                            <div class="sidebarbox">
+                              <div><img class="icons" src="images/upload.svg"> </div>
+                              <div class="name">Assign jobs</div></div><div class="sidebarbox">
+                                <div><img class="icons" src="images/upload.svg"> </div>
+                                <div class="name">Email</div></div>  
+
+
+              
+            
+              
+        </div>
+        </div>
+     </body>
+</html>
